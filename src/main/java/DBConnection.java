@@ -66,7 +66,7 @@ public class DBConnection {
         try {
             url = file.toURI().toURL();
         } catch (MalformedURLException e) {
-            System.out.printf("Unablto open url.");
+            System.out.printf("Unable to open url.");
             e.printStackTrace();
         }
         URLClassLoader ucl = new URLClassLoader(new URL[] {url});
