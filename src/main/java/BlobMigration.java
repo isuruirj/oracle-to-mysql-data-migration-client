@@ -54,11 +54,11 @@ public class BlobMigration {
 
         migrateUMTenant(oracleUrl, oracleUserstoreDBUsername, oracleUserstoreDBPassword, mysqlUserstoreDBUrl, mysqlUserstoreDBUsername, mysqlUserstoreDBPassword);
         System.out.println("====== Tenant Data Migration Completed ======");
-        migrateRegContent(oracleUrl, oracleRegDBUsername, oracleRegDBPassword, mysqlRegDBUrl, mysqlRegDBUsername, mysqlRegDBPassword);
+        //migrateRegContent(oracleUrl, oracleRegDBUsername, oracleRegDBPassword, mysqlRegDBUrl, mysqlRegDBUsername, mysqlRegDBPassword);
         System.out.println("====== Reg Content Data Migration Completed ======");
-        migrateAdaptiveScript(oracleUrl, oracleIdentityDBUsername, oracleIdentityDBPassword, mysqlIdentityDBUrl, mysqlIdentityDBUsername, mysqlIdentityDBPassword);
+        //migrateAdaptiveScript(oracleUrl, oracleIdentityDBUsername, oracleIdentityDBPassword, mysqlIdentityDBUrl, mysqlIdentityDBUsername, mysqlIdentityDBPassword);
         System.out.println("====== Adaptive Script Data Migration Completed ======");
-        migrateIdpCertificate(oracleUrl, oracleIdentityDBUsername, oracleIdentityDBPassword, mysqlIdentityDBUrl, mysqlIdentityDBUsername, mysqlIdentityDBPassword);
+        //migrateIdpCertificate(oracleUrl, oracleIdentityDBUsername, oracleIdentityDBPassword, mysqlIdentityDBUrl, mysqlIdentityDBUsername, mysqlIdentityDBPassword);
         System.out.println("====== IDP Certificate Migration Completed ======");
     }
 
